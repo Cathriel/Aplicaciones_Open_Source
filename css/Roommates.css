@@ -484,6 +484,32 @@ header>.contenedor{
 }
 
 /*Fin PLans*/
+.about-the-product{
+    width: 100%;
+    height: 550px;
+}
+
+.about-the-product>div>h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+iframe{
+
+}
+
+#aboutProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
 /*Inicio Testimony*/
 .testimony{
     width: 100%;
@@ -493,6 +519,7 @@ header>.contenedor{
     width: 100%;
     height: 100%;
     flex-direction: column;
+    background-color: #F8F2FE;
 }
 
 .testimony>.contenedor>h1{
@@ -520,8 +547,8 @@ header>.contenedor{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #F8F2FE;
     margin-top: 3%;
+    background-color: #FFFFFF;
 }
 
 .testimonyWidget>img{
